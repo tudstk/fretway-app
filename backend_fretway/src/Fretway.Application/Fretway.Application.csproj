@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Fretway.Application</RootNamespace>
+    <AssemblyName>Fretway.Application</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fretway.Domain\Fretway.Domain.csproj" />
+    <ProjectReference Include="..\Fretway.Infrastructure\Fretway.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
