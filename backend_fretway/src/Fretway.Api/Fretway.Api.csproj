@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Fretway.Api</RootNamespace>
+    <AssemblyName>Fretway.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fretway.Application\Fretway.Application.csproj" />
+    <ProjectReference Include="..\Fretway.Infrastructure\Fretway.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

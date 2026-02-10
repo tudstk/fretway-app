@@ -1,0 +1,28 @@
+# Step documentation and plan (local/temporary)
+STEP-*.md
+PLAN.md
+
+# Visual Studio / IDE
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
