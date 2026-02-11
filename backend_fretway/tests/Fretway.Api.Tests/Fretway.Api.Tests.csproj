@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="**\*.gitkeep" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\src\Fretway.Api\Fretway.Api.csproj" />
   </ItemGroup>
 

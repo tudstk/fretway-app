@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="**\*.gitkeep" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Fretway.Application\Fretway.Application.csproj" />
     <ProjectReference Include="..\Fretway.Infrastructure\Fretway.Infrastructure.csproj" />
   </ItemGroup>

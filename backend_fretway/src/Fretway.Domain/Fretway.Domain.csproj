@@ -8,4 +8,8 @@
     <AssemblyName>Fretway.Domain</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="**\*.gitkeep" />
+  </ItemGroup>
+
 </Project>
